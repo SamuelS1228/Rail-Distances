@@ -319,7 +319,8 @@ if fra_file is not None and od_file is not None:
                             data=line_df,
                             get_source_position=["from_lng", "from_lat"],
                             get_target_position=["to_lng", "to_lat"],
-                            get_width=5,
+                            get_color=[255, 0, 0],  # bright red
+                            get_width=6,
                             pickable=True,
                         )
 
